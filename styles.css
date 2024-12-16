@@ -1,2 +1,19 @@
-h1 { color: blue;
-   }
+
+header {
+    background-color: #535353;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+  }
+  nav {
+    margin: 0;
+    padding: 20px 0;
+  }
+  nav li {
+    color: rgba(255, 255, 255, 0.859);
+    font-family: 'Trebuchet MS', serif;
+    font-weight: 600;
+    display: inline-block; 
+    width: 100px;
+  }
