@@ -1,22 +1,33 @@
 
 header {
-    background-color: #535353;
+    background-color: rgb(225, 235, 225);
     width: 100%;
     z-index: 1;
     position: fixed;
     top: 0px;
+    left: 0px;
   }
   nav {
     margin: 0;
-    padding: 0px 0;
+    padding: 10px 0;
   }
   nav li {
-    color: rgba(255, 255, 255, 0.859);
-    font-family: 'Trebuchet MS', serif;
+    color: lightgreen;
+    font-family: 'Georgia', serif;
     font-weight: 600;
-    display: inline-block; 
+    display: inline-flex; 
     width: 100px;
   }
 main {
     top: 100px;
+}
+#missionmain{
+    top: 100px;
+    padding: 60px;
+    
+}
+html{
+ background-image:linear-gradient(to top right, green, lightgreen);
+ font-family: Georgia !important;
+ background-attachment: fixed;
 }
