@@ -30,3 +30,7 @@ html{
  font-family: Georgia !important;
  background-attachment: fixed;
 }
+#homemain {
+ top:200px;
+ padding: 60px;
+}
